@@ -6,6 +6,8 @@
 - Describe, haciendo uso de la plantilla, al menos el caso de uso "Sacar dinero", con las interacciones que tiene entre el actor y el caso de uso.
 - Responde a las siguiente pregunta:¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?
 
+
+## Diagrama de uso con platumlm
 ```uml
 @startuml
 actor Cliente as cliente
@@ -33,6 +35,10 @@ notificacion1 .> retirar : <<extends>>
 
 @enduml
 ```
+
+![](https://cdn-0.plantuml.com/plantuml/dpng/VP11IyD048Nl-oiUlRVWLKgfr4l1auhtOJCj8vjPcDaKGVplXcmDMTIU4jvyxy6tUozaPUXJe5YouP24jJ384UjlC8w5z9mO1tfdovy1mE0SoHchDqhIaJc35PpWueLxMe4Sbtfh-AEUZPqCdIXRdZYfMGk-6gcVs5YZrBcoJ1hscOjOksarQh27YtZ62wKkuwW-d2HEYbD1Sv4ne2XP_sWzII-5yIXaadyLxi9N2E7wObYlTxFxCgkURTXQBI-pGlZfOREPXt6FxLOqfg7ZtIuqApUuw-OD8YozC6ArKZ7-AAoTZrXZ_p-s7xz3dxu1)
+
+
 ### Caso de Uso: Sacar dinero
 #### Flujo:
 1. El cliente hace la peticion de validarse.
