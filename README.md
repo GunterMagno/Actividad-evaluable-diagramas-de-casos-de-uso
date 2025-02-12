@@ -34,7 +34,7 @@ notificacion1 .> retirar : <<extends>>
 @enduml
 ```
 ### Caso de Uso: Sacar dinero
-#### Flujo Básico:
+#### Flujo:
 1. El cliente hace la peticion de validarse.
 2. El sistema valida la identidad del cliente.
 3. El cliente selecciona "Retirar dinero".
@@ -51,8 +51,4 @@ notificacion1 .> retirar : <<extends>>
 
 ### ¿Para qué sirve un diagrama de casos de uso?
 
-1. **Claridad y comprensión**: Facilita la visualización de cómo los actores interactúan con el sistema, ayudando a desarrolladores.
-2. **Documentación**: Proporciona una base clara para desarrollar y documentar funcionalidades.
-3. **Identificación de requisitos**: Ayuda a definir qué debe hacer el sistema en diferentes situaciones.
-4. **Detección de fallos**: Permite identificar posibles fallos o escenarios no cubiertos en el flujo de trabajo.
-5. **Base para pruebas**: Sirve como referencia para realizar pruebas funcionales del sistema.
+Un diagrama de casos de uso sirve para facilitar la visualización de cómo los usuarios interactúan con el sistema, ayudando a los desarrolladores a comprender mejor el flujo del sistema. Es una buena base clara para desarrollar y documentar las funcionalidades del sistema, a la vez que permite identificar los requisitos que debe cumplir en diferentes situaciones. También ayuda a detectar posibles fallos o escenarios no cubiertos en el flujo de trabajo y sirve como referencia para realizar pruebas funcionales del sistema.
